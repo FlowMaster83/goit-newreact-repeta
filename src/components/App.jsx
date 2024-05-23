@@ -1,10 +1,10 @@
 import OfficerList from "./OfficerList";
-import data from "../officers.json";
+import data from "../offisers.json";
 
 export default function App() {
   return (
     <>
-      <h1>Available Officers</h1>
+      <h1>Available officers</h1>
       <OfficerList officers={data} />
     </>
   );
