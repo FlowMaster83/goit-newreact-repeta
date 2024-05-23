@@ -1,0 +1,16 @@
+.container {
+  padding: 12px;
+  border: 5px solid black;
+}
+
+.active {
+  border-color: green;
+}
+
+.retired {
+  border-color: red;
+}
+
+.neutral {
+  border-color: purple;
+}

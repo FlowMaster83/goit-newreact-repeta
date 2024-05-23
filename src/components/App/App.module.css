@@ -1,7 +1,14 @@
 .container {
-  background-color: orangered;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .title {
   color: red;
+}
+
+.icon {
+  color: orangered;
+  width: 40px;
+  height: 40px;
 }
