@@ -2,7 +2,6 @@ import { FaBeer } from "react-icons/fa";
 import OfficerList from "../OfficerList/OfficerList";
 import data from "../../offisers.json";
 import css from "./App.module.css";
-// import Button from "./Button/Button";
 
 // const ProfileSection = ({ title, children }) => {
 //   return (
