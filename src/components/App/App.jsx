@@ -2,6 +2,7 @@ import { FaBeer } from "react-icons/fa";
 import OfficerList from "../OfficerList/OfficerList";
 import data from "../../offisers.json";
 import css from "./App.module.css";
+import Button from "../Button/Button";
 
 // const ProfileSection = ({ title, children }) => {
 //   return (
@@ -19,7 +20,11 @@ export default function App() {
     <div className={css.container}>
       <FaBeer className={css.icon} />
 
-      {/* <Button /> */}
+      <Button variant="primary">Deposit</Button>
+      <Button type="submit" variant="secondary">
+        Register
+      </Button>
+      <Button variant="tertiary">Delete</Button>
 
       {/* <ProfileSection title="Rating">
         <div>www</div>

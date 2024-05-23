@@ -1,0 +1,15 @@
+.btn {
+  padding: 12px;
+}
+
+.primary {
+  background-color: blue;
+}
+
+.secondary {
+  background-color: yellow;
+}
+
+.tertiary {
+  background-color: purple;
+}

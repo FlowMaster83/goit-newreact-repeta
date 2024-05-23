@@ -1,8 +1,18 @@
-export default function Button() {
+import css from "./Button.module.css";
+import clsx from "clsx";
+
+export default function Button({ type = "button", variant, children }) {
   return (
-    <div>
-      <button>Deposit</button>
-      <button>Register</button>
-    </div>
+    <button
+      className={clsx(
+        css.btn,
+        variant === "primary" && css.primary,
+        variant === "secondary" && css.secondary,
+        variant === "tertiary" && css.tertiary
+      )}
+      type={type}
+    >
+      {children}
+    </button>
   );
 }
