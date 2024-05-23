@@ -20,11 +20,19 @@ export default function App() {
     <div className={css.container}>
       <FaBeer className={css.icon} />
 
-      <Button variant="primary">Deposit</Button>
-      <Button type="submit" variant="secondary">
+      {/* компонент, який багато разів використовується */}
+      <Button size="large" variant="primary">
+        {/* children */}
+        Deposit
+        {/* children */}
+      </Button>
+      <Button size="medium" type="submit" variant="secondary">
         Register
       </Button>
-      <Button variant="tertiary">Delete</Button>
+      <Button size="small" variant="tertiary">
+        Delete
+      </Button>
+      {/* компонент, який багато разів використовується */}
 
       {/* <ProfileSection title="Rating">
         <div>www</div>
